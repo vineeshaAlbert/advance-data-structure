@@ -234,7 +234,7 @@ void delete1(struct btnode *t)
             t1->r = t->r;
         else
             t1->l = t->r;
-        t == NULL;
+        t = NULL;
         free(t);
         return;
     }
